@@ -1,0 +1,19 @@
+Feature: Amazon API Product search
+
+	Scenario: Class stuff structure and methods
+		Given I instantiate "Amazon" 
+		Class should contain "test_url" method
+		
+	Scenario: Verify the class structure and attributes (urlparams)
+		Variable "submit_url" should be None
+		Class should contain "params" dict with "Service" key
+		Class should contain "params" dict with "Version" key
+		Class should contain "params" dict with "Operation" key
+		Class should contain "params" dict with "SearchIndex" key
+		Class should contain "params" dict with "Keywords" key
+		Class should contain "params" dict with "AWSAccessKeyId" key
+		Class should contain "params" dict with "ResponseGroup" key
+
+
+
+	
