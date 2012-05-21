@@ -5,7 +5,7 @@ from nose.tools import assert_equals, assert_true
 
 import sys
 sys.path.append('lib/amazon')
-from Amazon420 import Amazon
+from AmazonAPI import Amazon
 
 @step(u'Given I instantiate "(.*)"')
 def given_i_instantiate_group1(step, classname):
